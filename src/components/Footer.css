@@ -1,7 +1,7 @@
 .footer {
   background-color: #00a6ec;
   height: 20vh;
-  width: calc(90vw - 15vw);
+  width: calc(100vw - 30vw);
   position: relative;
   left: 10vw;
   color: white;
