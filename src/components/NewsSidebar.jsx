@@ -1,9 +1,7 @@
-import React from 'react'
-import "./NewsSidebar.css"
+import React from "react";
+import "./NewsSidebar.css";
 const NewsSidebar = () => {
-  return (
-    <div className="news-sidebar">NewsSIdebar</div>
-  )
-}
+	return <div className="news-sidebar">Pippo</div>;
+};
 
-export default NewsSidebar
+export default NewsSidebar;
