@@ -1,0 +1,11 @@
+.header {
+  background-color: #f21e1e;
+  height: 10vh;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
