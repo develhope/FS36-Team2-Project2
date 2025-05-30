@@ -6,6 +6,19 @@ import NewsSidebar from './components/NewsSidebar';
 import Footer from './components/Footer';
 
 function App() {
+
+  const CardArray = [
+    {
+      img: '' 
+    }
+  ]
+
+
+
+
+
+
+
   return (
     <div>
       <Header />
