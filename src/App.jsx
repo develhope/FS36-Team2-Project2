@@ -1,9 +1,8 @@
-
-import Header from './components/Header';
-import SideBar from './components/SideBar';
-import CardContainer from './components/CardContainer';
-import NewsSidebar from './components/NewsSidebar';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import CardContainer from "./components/CardContainer";
+import NewsSidebar from "./components/NewsSidebar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       <SideBar />
       <CardContainer />
       <NewsSidebar />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
