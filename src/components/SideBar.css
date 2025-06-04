@@ -2,7 +2,7 @@
   background-color: #7f7f7f;
   width: 10vw;
   height: calc(100vh - 10vh);
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0;
   color: white;

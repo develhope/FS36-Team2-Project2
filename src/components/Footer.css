@@ -2,7 +2,7 @@
   background-color: #00a6ec;
   height: 20vh;
   width: calc(100vw - 30vw);
-  position: relative;
+  position: absolute;
   left: 10vw;
   color: white;
   font-weight: bold;
