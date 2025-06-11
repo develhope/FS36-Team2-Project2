@@ -1,14 +1,93 @@
-.footer {
-  background-color: #00a6ec;
-  height: 20vh;
-  width: calc(90vw - 15vw);
-  position: relative;
-  left: 10vw;
-  color: white;
-  font-weight: bold;
+footer{
+  max-width: 69%;
+}
+
+nav li, footer li{
+  list-style: none;
+}
+
+
+.nintendo-footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  background: #BF0010;
+  color: #fff;
+  font-family: 'Nintendo Switch UI', Arial, sans-serif;
+  font-size: 12px;
+  margin-left: 6%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  }
+  
+.footer-links ul li,
+.footer-links2 ul li,
+.footer-copyright ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  
+}
+
+.footer-links li,
+.footer-links2 li{
+  padding: 5px 0px;
+}
+
+
+.links a, a nav, .collapsedBox a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links2 a:hover,
+.collapsed-button:hover,
+.collapsedBox li:hover {
+  text-decoration: underline;
+}
+
+
+
+.collapsedBox{
+  display: flex;
+  width: 100%;
+  background-color: #99000D;
+  color: #fff;
+  font-size: 14px;
+}
+
+.collapsedBox li {
+  padding: 10px;
+}
+
+
+.collapsed-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#BF0010;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+
+/* .top-line{
+  display: flex;
   align-items: center;
+  height: 50px;
+  background-color:#E60012;
+} */
+
+.top-line{
   position: relative;
-  z-index: 1;
+  background-color:#E60012;
+
 }

@@ -1,0 +1,91 @@
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #E60012;
+  width: 100%;
+  position: fixed;
+  padding: 0 20px;
+}
+
+
+svg{
+    color:white;
+}
+
+.nintendo-logo{
+    order: -1;
+}
+
+.sidebar {  
+  width: 5.7%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 70px;
+}
+
+.square, .header li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E60012;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    border:1px solid #BF0010;
+    
+}
+
+.square{
+    height: 90px;
+}
+
+.header li{
+  height: 69px;
+  width: 70px;
+}
+.square span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+.square:hover,
+.header li:hover{
+    background-color: #BF0010; 
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+
+.little-square.square{
+    height: 45px;
+}
+
+
+
+
