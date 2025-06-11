@@ -1,6 +1,6 @@
 .news-sidebar {
   background-color: white;
-  width: 30%;
+  width: 35%;
   height: calc(100vh - 5vh);
   color: white;
   font-weight: bold;
@@ -12,37 +12,38 @@
   text-align: center;*/
 }
 
-.ultime-novita {
+.ultime-novita,
+.prossimi-giochi,
+.uscito-di-recente {
   background-color: white;
   border: 5px solid #e5e7eb;
+  border-bottom: 0px;
   padding: 18px;
   font-size: 16px;
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
+  margin: 0;
 }
 
 .news-list {
   width: 100%;
   list-style: none;
   padding: 0;
-  /* margin: 10px; */
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
 }
 .news-item {
   border: 5px solid #e5e7eb;
   padding: 6px;
   border-bottom: 0px;
-  /* margin: 10px; */
+  display: flex;
 }
 
 .news-item a {
   display: flex;
   text-decoration: none;
   color: inherit;
-  /* gap: 12px; */
 }
 .news-item img {
   width: 100px;
@@ -68,7 +69,6 @@
   font-size: 1rem;
   font-weight: 600;
   margin-top: 4px;
-  /* line-height: 1.2; */
   color: #333;
   margin: 0px;
 }
@@ -83,14 +83,34 @@
   margin-top: 10px;
 }
 
-.piu-notizie {
+.side-writting {
+  display: flex;
+  justify-content: flex-end;
   background-color: white;
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   border: 5px solid #e5e7eb;
-  padding: 6px;
-  padding-left: 320px;
+  padding: 15px;
+  padding-right: 15px;
   margin-top: 0px;
+  text-decoration: none;
 }
+.side-writting:hover {
+  text-decoration: underline;
+}
+.news-svg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin-left: 115px;
+  margin-top: 60px;
+  background-color: #e5e7eb;
+  text-decoration: none;
+}
+.news-svg:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+/* risolvere la roba del svg, guardare il display flex del link(sistemarlo meglio) */
