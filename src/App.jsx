@@ -5,15 +5,17 @@ import NewsSidebar from "./components/NewsSidebar";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <SideBar />
-      <CardContainer />
-      <NewsSidebar />
-      {/* <Footer /> */}
-    </div>
-  );
+	return (
+		<div>
+			<Header />
+			<div className="appContainer">
+				<SideBar />
+				<CardContainer />
+				<NewsSidebar />
+			</div>
+			{/* <Footer /> */}
+		</div>
+	);
 }
 
 export default App;

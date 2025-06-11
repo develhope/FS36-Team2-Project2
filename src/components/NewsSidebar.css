@@ -2,13 +2,11 @@
   background-color: white;
   width: 30%;
   height: calc(100vh - 5vh);
-  position: absolute;
-  /* top: 60px; */
-  top: calc(100vh - 80vh);
-  right: 0;
   color: white;
   font-weight: bold;
   display: flex;
+  flex-direction: column;
+  padding: 0 10px 0;
   /* justify-content: center;
   align-items: center;
   text-align: center;*/
@@ -16,7 +14,6 @@
 
 .ultime-novita {
   background-color: white;
-  width: 130%;
   border: 5px solid #e5e7eb;
   padding: 18px;
   font-size: 16px;
@@ -26,9 +23,9 @@
 }
 
 .news-list {
-  width: 130%;
+  width: 100%;
   list-style: none;
-  padding: 8px;
+  padding: 0;
   /* margin: 10px; */
   display: flex;
   flex-direction: column;

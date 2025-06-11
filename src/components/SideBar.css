@@ -1,10 +1,7 @@
 .sidebar {
   background-color: #7f7f7f;
-  width: 10vw;
+  width: 10%;
   height: calc(100vh - 10vh);
-  position: absolute;
-  bottom: 0px;
-  left: 0;
   color: white;
   font-weight: bold;
   display: flex;
