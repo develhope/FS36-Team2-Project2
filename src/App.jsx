@@ -1,29 +1,16 @@
-
-import Header from './components/Header';
-import SideBar from './components/SideBar';
-import CardContainer from './components/CardContainer';
-import NewsSidebar from './components/NewsSidebar';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import CardContainer from "./components/CardContainer";
+import NewsSidebar from "./components/NewsSidebar";
+import Footer from "./components/Footer";
 
 function App() {
-
-  const CardArray = [
-    {
-      img: '' 
-    }
-  ]
-
-
-
-
-
-
 
   return (
     <div>
       <Header />
       <SideBar />
-      <CardContainer />
+      <CardContainer cardArray={cardArray} />
       <NewsSidebar />
       <Footer />
     </div>

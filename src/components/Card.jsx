@@ -6,7 +6,7 @@ const Card = ({ pathimg, testo, id }) => {
   }
 
   return (
-    <div id={id}>
+    <div className="card" id={id}>
       <img src={pathimg} />
     </div>
   );

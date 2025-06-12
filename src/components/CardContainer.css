@@ -4,17 +4,24 @@
   left: 10vw;
   width: calc(100vw - 30vw);
   height: auto;
-  padding: 2vh 1vw;
+  padding: 1vh 1vw;
   box-sizing: border-box;
-  background-color: #202020;
+  background-color: #ffffff;
   overflow: hidden;
+}
+
+.card {
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translate(0, -8px);
 }
 
 .card-container {
   display: grid;
   grid-template-columns: repeat(6, 2fr);
   grid-template-rows: repeat(12, minmax(100px, auto));
-  gap: 8px;
+  gap: 2px;
   color: white;
 }
 .card-container img {
