@@ -7,23 +7,19 @@
   display: flex;
   flex-direction: column;
   padding: 0 10px 0;
-  /* justify-content: center;
-  align-items: center;
-  text-align: center;*/
 }
 
-.ultime-novita,
-.prossimi-giochi,
-.uscito-di-recente {
+.news-first-li-element {
   background-color: white;
-  border: 5px solid #e5e7eb;
+  border: 5px solid rgb(239, 239, 239);
   border-bottom: 0px;
-  padding: 18px;
+  padding: 10px;
   font-size: 16px;
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin: 0;
+  display: flex;
 }
 
 .news-list {
@@ -34,7 +30,7 @@
   flex-direction: column;
 }
 .news-item {
-  border: 5px solid #e5e7eb;
+  border: 5px solid rgb(239, 239, 239);
   padding: 6px;
   border-bottom: 0px;
   display: flex;
@@ -92,7 +88,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 14px;
-  border: 5px solid #e5e7eb;
+  border: 5px solid rgb(239, 239, 239);
   padding: 15px;
   padding-right: 15px;
   margin-top: 0px;
@@ -122,4 +118,17 @@
   border-color: rgb(252, 252, 252);
   cursor: pointer;
 }
-/* guardare il display flex del link(sistemarlo meglio) */
+.little-rectangle {
+  width: 4px;
+  height: 35px;
+  background-color: rgb(239, 239, 239);
+  margin-right: 8px;
+  border-radius: 1px;
+}
+.news-first-title {
+  margin-top: 9px;
+  font-size: 16px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}

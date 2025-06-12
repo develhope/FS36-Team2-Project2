@@ -149,9 +149,12 @@ const NewsSidebar = () => {
         <div>
           <ul className="news-list">
             <li>
-              <h2 className="ultime-novita">
-                <News title="Ultime novità" />
-              </h2>
+              <div className="news-first-li-element">
+                <div className="little-rectangle"></div>
+                <h2 className="news-first-title">
+                  <News title="Ultime novità" />
+                </h2>
+              </div>
             </li>
             {data.map((item, i) => (
               <li key={i} className="news-item">
@@ -169,7 +172,6 @@ const NewsSidebar = () => {
             ))}
             <li>
               <a href="" className="side-writting">
-                {" "}
                 PIU' NOTIZIE{">>"}
               </a>
             </li>
@@ -178,9 +180,12 @@ const NewsSidebar = () => {
         <div>
           <ul className="news-list">
             <li>
-              <h2 className="prossimi-giochi">
-                <News title="Prossimi giochi" />
-              </h2>
+              <div className="news-first-li-element">
+                <div className="little-rectangle"></div>
+                <h2 className="news-first-title">
+                  <News title="Prossimi giochi" />
+                </h2>
+              </div>
             </li>
             {secondData.map((item, i) => (
               <li key={i} className="news-item">
@@ -208,9 +213,15 @@ const NewsSidebar = () => {
         <div>
           <ul className="news-list">
             <li>
-              <h2 className="uscito-di-recente">
+              {/* <h2 className="news-first-li-element">
                 <News title="Uscito di recente" />
-              </h2>
+              </h2> */}
+              <div className="news-first-li-element">
+                <div className="little-rectangle"></div>
+                <h2 className="news-first-title">
+                  <News title="Uscito di recente" />
+                </h2>
+              </div>
             </li>
             {thirdData.map((item, i) => (
               <li key={i} className="news-item">
