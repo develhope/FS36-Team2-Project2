@@ -6,10 +6,7 @@ const SideBar = () => {
 			<nav className="sidebar">
 				<ul>
 					<li>
-						<Square
-							svg={"/star.svg"}
-							title={"Giochi"}
-						/>
+						<Square svg={"/star.svg"} title={"Giochi"} />
 					</li>
 					<li>
 						<Square
@@ -24,10 +21,7 @@ const SideBar = () => {
 						/>
 					</li>
 					<li>
-						<Square
-							svg={"/shop.svg"}
-							title={"Nintendo eShop"}
-						/>
+						<Square svg={"/shop.svg"} title={"Nintendo eShop"} />
 					</li>
 					<li>
 						<Square
@@ -36,22 +30,16 @@ const SideBar = () => {
 						/>
 					</li>
 					<li>
-						<Square
-							svg={"/info.svg"}
-							title={"Rimani Informato"}
-						/>
+						<Square svg={"/info.svg"} title={"Rimani Informato"} />
 					</li>
-					<li className="little-square">
-            ...
-					</li>
-					<div>
+					<li className="little-square">...</li>
+					<div className="last-square-wrapper">
 						<ul>
 							<li className="last-square">
 								<button className="up-button">
-					<img src="/arrow.svg" />
-					</button>
+									<img src="/arrow.svg" />
+								</button>
 							</li>
-
 						</ul>
 					</div>
 				</ul>

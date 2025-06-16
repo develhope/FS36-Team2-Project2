@@ -55,12 +55,21 @@ svg{
   color: white;
   font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   position: fixed;
-  top: 63px;
+  top: 70px;
   bottom: 0;
+  background-color: var(--red-dark);
+}
+
+.sidebar square {
+	height: auto;
+}
+
+.sidebar li {
+	height: 90px;
 }
 
 .square, .header li {
@@ -105,10 +114,17 @@ svg{
     font-size: 25px;
 }
 
+.last-square-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .last-square{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     background-color: var(--red-dark);
     flex-grow: 1;
 }
@@ -120,6 +136,9 @@ svg{
     width: 30%;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header li{
