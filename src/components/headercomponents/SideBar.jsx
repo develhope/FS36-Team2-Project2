@@ -1,5 +1,4 @@
 import { Square } from "./Square";
-import Star from "../../assets/Logo e Svg/Star.svg";
 
 const SideBar = () => {
 	return (
@@ -8,48 +7,53 @@ const SideBar = () => {
 				<ul>
 					<li>
 						<Square
-							// svg={"../../assets/Logo e Svg/star.svg"}
-							svg={Star}
+							svg={"/star.svg"}
 							title={"Giochi"}
 						/>
 					</li>
 					<li>
 						<Square
-							svg={"../../assets/Logo e Svg/console.svg"}
+							svg={"/console.svg"}
 							title={"Console e accessori"}
 						/>
 					</li>
 					<li>
 						<Square
-							svg={"../../assets/Logo e Svg/switch.svg"}
+							svg={"/switch.svg"}
 							title={"Nintendo Switch Online"}
 						/>
 					</li>
 					<li>
 						<Square
-							svg={"../../assets/Logo e Svg/shop.svg"}
+							svg={"/shop.svg"}
 							title={"Nintendo eShop"}
 						/>
 					</li>
 					<li>
 						<Square
-							svg={"../../assets/Logo e Svg/nintendostore.svg"}
+							svg={"/store.svg"}
 							title={"My Nintendo Store"}
 						/>
 					</li>
 					<li>
 						<Square
-							svg={"../../assets/Logo e Svg/rimani_informato.svg"}
+							svg={"/info.svg"}
 							title={"Rimani Informato"}
 						/>
 					</li>
 					<li className="little-square">
-						<Square title={"..."} />
+            ...
 					</li>
-					<li className="last-square">
-						<Square />
-						<button className="up-button"></button>
-					</li>
+					<div>
+						<ul>
+							<li className="last-square">
+								<button className="up-button">
+					<img src="/arrow.svg" />
+					</button>
+							</li>
+
+						</ul>
+					</div>
 				</ul>
 			</nav>
 		</>

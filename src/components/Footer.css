@@ -1,4 +1,4 @@
-footer{
+/* footer{
   max-width: 69%;
 }
 
@@ -43,7 +43,8 @@ nav li, footer li{
 .footer-links a:hover,
 .footer-links2 a:hover,
 .collapsed-button:hover,
-.collapsedBox li:hover {
+.collapsedBox li:hover,
+.header li:hover {
   text-decoration: underline;
 }
 
@@ -79,15 +80,25 @@ nav li, footer li{
 
 }
 
-/* .top-line{
-  display: flex;
-  align-items: center;
-  height: 50px;
-  background-color:#E60012;
-} */
+.collapsed-button img{
+  padding-right: 4px;
+  padding-left: 4px;
+}
 
 .top-line{
-  position: relative;
-  background-color:#E60012;
+    position: relative;
+    background-color:#E60012;
+    
+  }
 
+.nintendo-logo-footer{
+  padding: 5px;
 }
+
+  .arrow-globe{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+ } */
