@@ -1,6 +1,6 @@
 .card-container {
   background-color: #28a745;
-  height: 100vh;
+  height: calc(100vh - 30vh);
   width: calc(90vw - 15vw);
   position: relative;
   left: 10vw;
