@@ -8,11 +8,18 @@ import SideBar from "./components/headercomponents/SideBar.jsx";
 function App() {
 	const { images } = useGetImages();
 	return (
-		<div>
+		<div style={{
+			backgroundColor: "#F4F4F4"
+		}}>
 			<Header />
 			<SideBar />
-			<CardContainer cardArray={images} />
-			<NewsSidebar />
+			<div style={{
+				display: "flex",
+
+			}}>
+				<CardContainer cardArray={images} />
+				<NewsSidebar />
+			</div>
 			<Footer />
 		</div>
 	);
