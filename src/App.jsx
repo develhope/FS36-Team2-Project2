@@ -1,9 +1,9 @@
-import Header from "./components/Header";
-import SideBar from "./components/SideBar";
+import Header from "./components/headercomponents/Header.jsx";
 import CardContainer from "./components/CardContainer";
 import NewsSidebar from "./components/NewsSidebar";
 import Footer from "./components/Footer";
 import { useGetImages } from "./hooks/useGetImages";
+import SideBar from "./components/headercomponents/SideBar.jsx";
 
 function App() {
 	const { images } = useGetImages();
