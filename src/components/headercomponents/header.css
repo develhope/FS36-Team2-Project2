@@ -1,0 +1,275 @@
+:root {
+  --red-primary: #E60012;
+  --red-dark: #BF0010;
+  --red-darker: #99000D;
+  --font-family: "Fira Sans", sans-serif;
+  --font-size-small: 12px;
+}
+
+html{
+  height: 100%;
+  margin: 0;
+}
+
+nav, footer{
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer li{
+    list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: var(--red-primary);
+  width: 100%;
+  position: fixed;
+  padding: 0 20px;
+}
+
+
+svg{
+    color:white;
+}
+
+.nintendo-logo{
+    order: -1;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.sidebar {  
+  width: 5.7%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  background-color: var(--red-dark);
+}
+
+.sidebar square {
+	height: auto;
+}
+
+.sidebar li {
+	height: 90px;
+}
+
+.square, .header li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--red-primary);
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+
+.square{
+    position: relative;
+    height: 90px;
+    border:1px solid var(--red-dark);
+}
+
+.square::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: transparent var(--red-darker) transparent transparent; 
+}
+
+.little-square-wrapper li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-primary);
+    color: white;
+    font-size: 25px;
+    height: 50px;
+}
+
+.last-square-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.last-square{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.up-button{
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px ;
+    margin-top: 40%;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header li{
+  height: 69px;
+  width: 70px;
+  gap: 5px;
+}
+
+.square span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.square:hover,
+.little-square:hover{
+    background-color: var(--red-dark); 
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+
+footer{
+  max-width: 69%;
+}
+
+.nintendo-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  background: var(--red-dark);
+  color: #fff;
+  font-size: 12px;
+  margin-left: 6%;
+  border-radius: 7px 7px 0px 0px;
+  overflow: hidden;
+  }
+  
+.footer-links ul li,
+.footer-links2 ul li,
+.footer-copyright ul li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  
+}
+
+
+.footer-links a, .footer-links2 a,
+a nav, .collapsedBox a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links2 a:hover,
+.collapsed-button:hover,
+.collapsedBox li:hover,
+.header li:hover {
+  text-decoration: underline;
+}
+
+.collapsedBox{
+  display: flex;
+  width: 100%;
+  background-color: var(--red-darker);
+  color: #fff;
+  font-size: 14px;
+}
+
+.collapsedBox li {
+  padding: 10px;
+}
+
+
+.collapsed-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:var(--red-dark);
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+    margin-left: 78%;
+    cursor: pointer;
+
+}
+
+.collapsed-button img{
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+
+.collapsed{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.top-line{
+    background-color: var(--red-primary);
+    display: flex;
+    align-items: center;
+  }
+.nintendo-logo-footer{
+  width: 80px;
+  padding: 5px 20px 5px;
+  margin: 0px;
+}
+
+.arrow-globe{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+ }
+
+
+

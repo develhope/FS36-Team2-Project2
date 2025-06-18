@@ -1,0 +1,21 @@
+con il logo nel footer, dentro il div top-line e nel collapsed c'è un altro div .collapsed
+
+.top-line{
+    background-color: var(--red-primary);
+    display: flex;
+    align-items: center;
+  }
+
+.collapsed{
+  position: relative;
+}
+
+
+con il logo dentro il collapsed, solo un div .top-line nel footer
+
+.top-line{
+    position: relative;
+    background-color: var(--red-primary);
+    /* display: flex;
+    align-items: center; */
+  }
