@@ -1,7 +1,7 @@
 import Header from "./components/headercomponents/Header";
 import SideBar from "./components/headercomponents/SideBar";
 import CardContainer from "./components/CardContainer";
-import NewsSidebar from "./components/NewsSidebar";
+// import NewsSidebar from "./components/NewsSidebar";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 			<Header />
 			<SideBar />
 			<CardContainer />
-			<NewsSidebar />
+			{/* <NewsSidebar /> */}
 			<Footer />
 		</div>
 	);

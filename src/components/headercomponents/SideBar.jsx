@@ -32,7 +32,11 @@ const SideBar = () => {
 					<li>
 						<Square svg={"/info.svg"} title={"Rimani Informato"} />
 					</li>
-					<li className="little-square">...</li>
+					<div className="little-square-wrapper">
+						<ul>
+							<li className="little-square">...</li>
+						</ul>
+					</div>
 					<div className="last-square-wrapper">
 						<ul>
 							<li className="last-square">

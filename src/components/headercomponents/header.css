@@ -104,14 +104,14 @@ svg{
   border-color: transparent var(--red-darker) transparent transparent; 
 }
 
-.little-square{
+.little-square-wrapper li{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--red-primary);
     color: white;
-    height: 50px;
     font-size: 25px;
+    height: 50px;
 }
 
 .last-square-wrapper {
@@ -125,8 +125,6 @@ svg{
     display: flex;
     justify-content: center;
     align-items: end;
-    background-color: var(--red-dark);
-    flex-grow: 1;
 }
 
 .up-button{
