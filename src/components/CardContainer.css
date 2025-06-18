@@ -1,11 +1,175 @@
+.card-container-wrapper {
+  position: relative;
+  top: 0;
+  left: 10vw;
+  width: calc(100vw - 30vw);
+  height: auto;
+  padding: 1vh 1vw;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.card {
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translate(0, -8px);
+}
+
 .card-container {
-  background-color: #28a745;
-  height: calc(100vh - 30vh);
-  width: calc(100vw - 25vw);
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  grid-template-rows: repeat(12, minmax(100px, auto));
+  gap: 2px;
   color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+}
+.card-container img {
+  width: 100%;
+}
+#card1 {
+  grid-column: span 2 / span 2;
+}
+
+#card2 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+}
+
+#card3 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 5;
+}
+
+#card4 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 2;
+}
+
+#card5 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#card6 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 5;
+  grid-row-start: 2;
+}
+
+#card7 {
+  grid-column: span 4 / span 4;
+  grid-row-start: 3;
+}
+
+#card8 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-row-start: 4;
+}
+
+#card9 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+#card10 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 5;
+  grid-row-start: 4;
+}
+
+#card11 {
+  grid-column: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 5;
+}
+
+#card12 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-row-start: 6;
+}
+
+#card13 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 6;
+}
+
+#card14 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 5;
+  grid-row-start: 6;
+}
+
+#card15 {
+  grid-column: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 7;
+}
+
+#card16 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 8;
+}
+
+#card17 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 8;
+}
+
+#card18 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 5;
+  grid-row-start: 8;
+}
+
+#card19 {
+  grid-column: span 4 / span 4;
+  grid-row-start: 9;
+}
+
+#card20 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 10;
+}
+
+#card21 {
+  grid-column: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 10;
+}
+
+#card22 {
+  grid-column: span 3 / span 3;
+  grid-row-start: 11;
+}
+
+#card23 {
+  grid-column: span 3 / span 3;
+  grid-column-start: 4;
+  grid-row-start: 11;
+}
+
+#card24 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 12;
+}
+
+#card25 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+  grid-row-start: 12;
+}
+
+#card26 {
+  grid-column: span 2 / span 2;
+  grid-column-start: 5;
+  grid-row-start: 12;
 }
