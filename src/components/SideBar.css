@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: #7f7f7f;
+  width: 10%;
+  height: calc(100vh - 10vh);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -2,8 +2,6 @@
   background-color: #28a745;
   height: calc(100vh - 30vh);
   width: calc(100vw - 25vw);
-  position: relative;
-  left: 10vw;
   color: white;
   font-weight: bold;
   display: flex;
