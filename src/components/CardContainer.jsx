@@ -1,8 +1,7 @@
 import "./CardContainer.css";
 import Card from "./Card";
-import { useGetImages } from "../hooks/useGetImages";
-const CardContainer = () => {
-  const { images: cardArray } = useGetImages();
+
+const CardContainer = ({ cardArray }) => {
   return (
     <div className="card-container-wrapper">
       <div className="card-container">

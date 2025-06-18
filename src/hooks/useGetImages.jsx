@@ -1,4 +1,4 @@
-import { useState } from "react";
+ import { useState } from "react";
 export function useGetImages() {
   const [images] = useState([
     { id: "card1", pathimg: "./src/assets/Card/1x1/1.jpg" },
